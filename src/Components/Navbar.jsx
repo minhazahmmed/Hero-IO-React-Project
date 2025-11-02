@@ -31,36 +31,36 @@ const Navbar = () => {
               tabIndex="-1"
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
             >
-              <li>
+              <li className='font-semibold'>
                 <NavLink to="/">Home</NavLink>
               </li>
 
-              <li>
+              <li className='font-semibold'>
                 <NavLink to="/applist">Apps</NavLink>
               </li>
 
-              <li>
+              <li className='font-semibold'>
                 <NavLink to="/installation">Installation</NavLink>
               </li>
             </ul>
           </div>
           <Link to="/" className=" text-xl flex gap-2">
             <img className="h-[30px] w-[30px]" src="/assets/logo.png" alt="" />
-            <h1>HERO.IO</h1>
+            <h1 className="font-bold">HERO.IO</h1>
           </Link>
         </div>
 
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">
-            <li>
+          <ul className="menu menu-horizontal px-1 gap-5">
+            <li className='font-semibold text-[16px]'> 
               <NavLink to="/">Home</NavLink>
             </li>
 
-            <li>
+            <li className='font-semibold text-[16px]'>
               <NavLink to="/applist">Apps</NavLink>
             </li>
 
-            <li>
+            <li className='font-semibold text-[16px]'>
               <NavLink to="/installation">Installation</NavLink>
             </li>
           </ul>

@@ -1,7 +1,13 @@
 import React from "react";
-import { NavLink } from "react-router";
+import { Link, NavLink } from "react-router";
+import useApps from "../Hooks/useApps";
+import AppCard from "../Components/appCard";
 
 const Home = () => {
+  const [apps] = useApps();
+  const featuredApps = apps.slice(0, 8);
+  
+
   return (
     <div>
       <div className="max-w-[1200px] mx-auto text-center mt-15">
@@ -42,14 +48,10 @@ const Home = () => {
         <div className="flex justify-center">
           <img src="/assets/hero.png" alt="" />
         </div>
-
-       
-
       </div>
 
-      <div  className="bg-linear-to-r from-[#632EE3] to-[#9F62F2] w-full mb-20">
-        
-             <div className=" max-w-[1200px] mx-auto text-white py-16 text-center">
+      <div className="bg-linear-to-r from-[#632EE3] to-[#9F62F2] w-full mb-15">
+        <div className=" max-w-[1200px] mx-auto text-white py-16 text-center">
           <h2 className="text-3xl font-bold mb-10">
             Trusted By Millions, Built For You
           </h2>
@@ -84,15 +86,25 @@ const Home = () => {
             </div>
           </div>
         </div>
-       </div>
+      </div>
 
-       <div className="max-w-[1200px] mx-auto text-center mb-20">
-            <h1 className="text-[48px] font-bold text-[#001931]">Trending Apps</h1>
-            <p className="text-[20px] text-[#627382] mb-10">Explore All Trending Apps on the Market developed by us</p>
+      <div className="max-w-[1200px] mx-auto text-center mb-20">
+        <h1 className="text-[48px] font-bold text-[#001931]">Trending Apps</h1>
+        <p className="text-[20px] text-[#627382] mb-10">
+          Explore All Trending Apps on the Market developed by us
+        </p>
 
-            <h1>Tranding App</h1>
-       </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mb-15">
+          {featuredApps.map((app) => (
+            <AppCard app={app} key={app.id} />
+          ))}
 
+         
+        </div>
+
+         <NavLink  className="py-4 px-8 rounded-lg bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-white font-semibold text-[16px] " to='/applist'>Show All</NavLink>
+
+      </div>
     </div>
   );
 };

@@ -1,0 +1,362 @@
+[
+  {
+    "image": "/public/assets/heroLearn.png",
+    "title": "Hero Learn",
+    "companyName": "Hero IO",
+    "id": 1,
+    "description": "Hero Learn is an interactive e-learning app designed to help students master coding, design, and problem-solving through engaging video lessons and real-time quizzes. The app provides progress tracking, offline access, and AI-powered recommendations to enhance your learning experience.",
+    "size": 85,
+    "reviews": 15423,
+    "ratingAvg": 4.8,
+    "downloads": "2.9M",
+    "ratings": [
+      { "name": "1 star", "count": 122 },
+      { "name": "2 star", "count": 213 },
+      { "name": "3 star", "count": 642 },
+      { "name": "4 star", "count": 3200 },
+      { "name": "5 star", "count": 10800 }
+    ]
+  },
+  {
+    "image": "/public/assets/taskify.png",
+    "title": "Taskify Pro",
+    "companyName": "NextGen Apps",
+    "id": 2,
+    "description": "Taskify Pro helps teams organize projects efficiently. It includes Kanban boards, progress charts, time tracking, and smart notifications to make your workflow smooth. Collaborate, plan, and execute tasks faster with cloud sync and offline support.",
+    "size": 52,
+    "reviews": 8450,
+    "ratingAvg": 4.6,
+    "downloads": "1.8M",
+    "ratings": [
+      { "name": "1 star", "count": 310 },
+      { "name": "2 star", "count": 401 },
+      { "name": "3 star", "count": 700 },
+      { "name": "4 star", "count": 2400 },
+      { "name": "5 star", "count": 4640 }
+    ]
+  },
+  {
+    "image": "/public/assets/fitlifetracker.png",
+    "title": "FitLife Tracker",
+    "companyName": "ActiveTech",
+    "id": 3,
+    "description": "FitLife Tracker lets you monitor your fitness journey through step counts, calorie tracking, sleep analysis, and workout guidance. It also integrates with smartwatches and provides AI-based health insights to keep you motivated every day.",
+    "size": 68,
+    "reviews": 16200,
+    "ratingAvg": 4.7,
+    "downloads": "3.5M",
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 420 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 3600 },
+      { "name": "5 star", "count": 11080 }
+    ]
+  },
+  {
+    "image": "/public/assets/soundWave.jpeg",
+    "title": "SoundWave Music",
+    "companyName": "TuneLabs",
+    "id": 4,
+    "description": "SoundWave Music is a next-generation audio streaming platform that gives users unlimited access to songs, podcasts, and playlists. With high-quality streaming and AI-curated recommendations, your music experience becomes personalized and seamless.",
+    "size": 94,
+    "reviews": 21300,
+    "ratingAvg": 4.5,
+    "downloads": "5.6M",
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 950 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 5800 },
+      { "name": "5 star", "count": 12250 }
+    ]
+  },
+  {
+    "image": "/public/assets/fintack.png",
+    "title": "FinTrack Budget",
+    "companyName": "SmartFinance",
+    "id": 5,
+    "description": "FinTrack Budget helps you manage your personal and business expenses in a smarter way. Track income, set saving goals, and get real-time insights into your spending habits. The app offers charts, secure cloud backup, and budgeting reminders.",
+    "size": 43,
+    "reviews": 8900,
+    "ratingAvg": 4.4,
+    "downloads": "2.4M",
+    "ratings": [
+      { "name": "1 star", "count": 350 },
+      { "name": "2 star", "count": 520 },
+      { "name": "3 star", "count": 980 },
+      { "name": "4 star", "count": 3200 },
+      { "name": "5 star", "count": 4850 }
+    ]
+  },
+  {
+    "image": "/public/assets/travelio.png",
+    "title": "Travelio",
+    "companyName": "SkyConnect",
+    "id": 6,
+    "description": "Travelio is your personal travel planner. It allows you to discover destinations, book hotels, compare flight prices, and track itineraries in one place. With its AI-powered suggestions, you can explore hidden gems and plan budget-friendly trips.",
+    "size": 77,
+    "reviews": 14700,
+    "ratingAvg": 4.8,
+    "downloads": "4.1M",
+    "ratings": [
+      { "name": "1 star", "count": 250 },
+      { "name": "2 star", "count": 360 },
+      { "name": "3 star", "count": 780 },
+      { "name": "4 star", "count": 3700 },
+      { "name": "5 star", "count": 9610 }
+    ]
+  },
+  {
+    "image": "/public/assets/medicarePlus.jpeg",
+    "title": "MediCare Plus",
+    "companyName": "HealthBridge",
+    "id": 7,
+    "description": "MediCare Plus is a digital health assistant that connects patients with doctors through online consultations. It stores prescriptions, reminds you about medicine schedules, and offers emergency location sharing during critical situations.",
+    "size": 91,
+    "reviews": 11000,
+    "ratingAvg": 4.7,
+    "downloads": "2.8M",
+    "ratings": [
+      { "name": "1 star", "count": 210 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 2600 },
+      { "name": "5 star", "count": 6990 }
+    ]
+  },
+  {
+    "image": "/public/assets/quickNote.jpeg",
+    "title": "QuickNote",
+    "companyName": "NextPen",
+    "id": 8,
+    "description": "QuickNote is a lightweight yet powerful note-taking app with markdown support, voice recording, and cloud sync. Organize your thoughts, lectures, and ideas effortlessly with folders and AI keyword search.",
+    "size": 25,
+    "reviews": 6700,
+    "ratingAvg": 4.3,
+    "downloads": "1.2M",
+    "ratings": [
+      { "name": "1 star", "count": 240 },
+      { "name": "2 star", "count": 410 },
+      { "name": "3 star", "count": 890 },
+      { "name": "4 star", "count": 2600 },
+      { "name": "5 star", "count": 2560 }
+    ]
+  },
+  {
+    "image": "/public/assets/photoFlex.png",
+    "title": "PhotoFlex Editor",
+    "companyName": "PixelSoft",
+    "id": 9,
+    "description": "PhotoFlex Editor brings professional-level photo editing to your fingertips. With AI-based background removal, filters, and one-tap color correction, it's the perfect choice for both beginners and photographers.",
+    "size": 97,
+    "reviews": 19300,
+    "ratingAvg": 4.6,
+    "downloads": "6.2M",
+    "ratings": [
+      { "name": "1 star", "count": 560 },
+      { "name": "2 star", "count": 870 },
+      { "name": "3 star", "count": 1300 },
+      { "name": "4 star", "count": 5600 },
+      { "name": "5 star", "count": 10970 }
+    ]
+  },
+  {
+    "image": "/public/assets/studyHub.png",
+    "title": "StudyHub",
+    "companyName": "Hero IO",
+    "id": 10,
+    "description": "StudyHub connects learners with quality study materials, video lectures, and mock tests across multiple subjects. It features a community Q&A system, personalized recommendations, and offline learning support.",
+    "size": 58,
+    "reviews": 9800,
+    "ratingAvg": 4.9,
+    "downloads": "3.3M",
+    "ratings": [
+      { "name": "1 star", "count": 110 },
+      { "name": "2 star", "count": 190 },
+      { "name": "3 star", "count": 460 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 6040 }
+    ]
+  },
+   {
+    "image": "/public/assets/foodie.jpeg",
+    "title": "Foodie Express",
+    "companyName": "EatSmart Ltd.",
+    "id": 11,
+    "description": "Foodie Express is an AI-powered food delivery app that connects you with thousands of restaurants around you. It recommends meals based on your diet preferences and order history, offers live order tracking, and ensures fresh and fast delivery every time.",
+    "size": 82,
+    "reviews": 21200,
+    "ratingAvg": 4.6,
+    "downloads": "5.7M",
+    "ratings": [
+      { "name": "1 star", "count": 480 },
+      { "name": "2 star", "count": 730 },
+      { "name": "3 star", "count": 1600 },
+      { "name": "4 star", "count": 5100 },
+      { "name": "5 star", "count": 10290 }
+    ]
+  },
+  {
+    "image": "/public/assets/weatherWise.png",
+    "title": "WeatherWise",
+    "companyName": "ClimaTech",
+    "id": 12,
+    "description": "WeatherWise delivers accurate and real-time weather updates powered by satellite data and AI forecasting. It includes storm alerts, air quality index, and 7-day predictions to help you plan your day smartly and safely.",
+    "size": 49,
+    "reviews": 8900,
+    "ratingAvg": 4.5,
+    "downloads": "2.1M",
+    "ratings": [
+      { "name": "1 star", "count": 190 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 760 },
+      { "name": "4 star", "count": 2700 },
+      { "name": "5 star", "count": 4950 }
+    ]
+  },
+  {
+    "image": "/public/assets/readly.png",
+    "title": "Readly Library",
+    "companyName": "PaperWave",
+    "id": 13,
+    "description": "Readly Library brings thousands of eBooks, journals, and magazines to your fingertips. With AI reading suggestions, offline access, and customizable themes, it turns your mobile into a digital library you'll never want to put down.",
+    "size": 71,
+    "reviews": 13700,
+    "ratingAvg": 4.8,
+    "downloads": "3.8M",
+    "ratings": [
+      { "name": "1 star", "count": 270 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 820 },
+      { "name": "4 star", "count": 3100 },
+      { "name": "5 star", "count": 9110 }
+    ]
+  },
+  {
+    "image": "/public/assets/chatMate.jpeg",
+    "title": "ChatMate",
+    "companyName": "Connectify",
+    "id": 14,
+    "description": "ChatMate is a secure messaging platform designed for individuals and teams. It features instant messaging, voice calls, file sharing, and AI translation, ensuring you stay connected anytime, anywhere with top-notch privacy.",
+    "size": 112,
+    "reviews": 24400,
+    "ratingAvg": 4.4,
+    "downloads": "6.8M",
+    "ratings": [
+      { "name": "1 star", "count": 750 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 1600 },
+      { "name": "4 star", "count": 6300 },
+      { "name": "5 star", "count": 10850 }
+    ]
+  },
+  {
+    "image": "/public/assets/learnMath.png",
+    "title": "LearnMath",
+    "companyName": "Hero IO",
+    "id": 15,
+    "description": "LearnMath is an AI-driven app that teaches mathematics interactively with step-by-step explanations, quizzes, and visual graphs. It helps students from high school to university level improve their problem-solving skills effectively.",
+    "size": 66,
+    "reviews": 9500,
+    "ratingAvg": 4.9,
+    "downloads": "3.3M",
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 180 },
+      { "name": "3 star", "count": 470 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 6230 }
+    ]
+  },
+  {
+    "image": "/public/assets/cleaning.png",
+    "title": "CleanerX",
+    "companyName": "BoostLabs",
+    "id": 16,
+    "description": "CleanerX is a mobile optimization app that removes junk files, boosts speed, and extends battery life. It includes real-time temperature control and memory management to keep your phone fast and efficient all day.",
+    "size": 35,
+    "reviews": 18900,
+    "ratingAvg": 4.6,
+    "downloads": "5.2M",
+    "ratings": [
+      { "name": "1 star", "count": 410 },
+      { "name": "2 star", "count": 690 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 4400 },
+      { "name": "5 star", "count": 10200 }
+    ]
+  },
+  {
+    "image": "/public/assets/langify.jpeg",
+    "title": "Langify",
+    "companyName": "GlobalTalk",
+    "id": 17,
+    "description": "Langify helps you learn and translate over 120 languages using AI. With voice recognition, flashcards, and real-world conversation practice, you can master any language faster and more naturally.",
+    "size": 74,
+    "reviews": 17400,
+    "ratingAvg": 4.8,
+    "downloads": "4.1M",
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 380 },
+      { "name": "3 star", "count": 840 },
+      { "name": "4 star", "count": 3500 },
+      { "name": "5 star", "count": 10380 }
+    ]
+  },
+  {
+    "image": "/public/assets/smartDrive.jpeg",
+    "title": "SmartDrive",
+    "companyName": "AutoBrain",
+    "id": 18,
+    "description": "SmartDrive connects to your car via Bluetooth to monitor engine health, mileage, and performance analytics. It also provides trip history, smart route suggestions, and safety alerts in real-time.",
+    "size": 108,
+    "reviews": 9600,
+    "ratingAvg": 4.5,
+    "downloads": "2.4M",
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 360 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 2900 },
+      { "name": "5 star", "count": 5340 }
+    ]
+  },
+  {
+    "image": "/public/assets/greenLife.png",
+    "title": "GreenLife",
+    "companyName": "EcoWorld",
+    "id": 19,
+    "description": "GreenLife inspires users to live an eco-friendly lifestyle. It tracks your carbon footprint, suggests sustainable alternatives, and connects you with green communities working for a better planet.",
+    "size": 56,
+    "reviews": 8800,
+    "ratingAvg": 4.7,
+    "downloads": "2.2M",
+    "ratings": [
+      { "name": "1 star", "count": 190 },
+      { "name": "2 star", "count": 280 },
+      { "name": "3 star", "count": 700 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 5130 }
+    ]
+  },
+  {
+    "image": "/public/assets/mindZen.png",
+    "title": "MindZen",
+    "companyName": "PeaceSoft",
+    "id": 20,
+    "description": "MindZen is a meditation and mindfulness app that helps users reduce stress and sleep better through guided sessions and calming sounds. It features AI mood tracking and custom relaxation plans.",
+    "size": 60,
+    "reviews": 15200,
+    "ratingAvg": 4.9,
+    "downloads": "3.6M",
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 190 },
+      { "name": "3 star", "count": 480 },
+      { "name": "4 star", "count": 2800 },
+      { "name": "5 star", "count": 7610 }
+    ]
+  }
+]
