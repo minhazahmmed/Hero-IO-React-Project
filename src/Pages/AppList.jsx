@@ -3,13 +3,22 @@ import useApps from "../Hooks/useApps";
 import AppCard from "../Components/appCard";
 import { Link } from "react-router";
 
+
 const AppList = () => {
   const [apps] = useApps();
   const [search, setSearch] = useState("");
+
+
   const term = search.trim().toLocaleLowerCase();
   const searchApps = term
     ? apps.filter((app) => app.title.toLocaleLowerCase().includes(term))
     : apps;
+
+ 
+  const handleGoBack = () => {
+    setSearch("");    
+   
+  };
 
   return (
     <div className="max-w-[1200px] mx-auto">
@@ -17,7 +26,7 @@ const AppList = () => {
         <h1 className="text-[40px] font-bold text-[#001931]">
           Our All Applications
         </h1>
-        <p className="text-[18px] text-[#627382] ">
+        <p className="text-[18px] text-[#627382]">
           Explore All Apps on the Market developed by us. We code for Millions
         </p>
       </div>
@@ -38,9 +47,30 @@ const AppList = () => {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mb-15">
-        {searchApps.map((app) => (
-          <AppCard app={app} key={app.id} />
-        ))}
+        {searchApps.length > 0 ? (
+          searchApps.map((app) => <AppCard app={app} key={app.id} />)
+        ) : (
+          <div className="flex flex-col items-center justify-center col-span-full py-20">
+            <img
+              src="/assets/App-Error.png"
+              alt="Not Found"
+              className="w-[250px] mb-5"
+            />
+            <h1 className="text-[48px] font-semibold text-[#001931] text-center">
+              OOPS!! APP NOT FOUND
+            </h1>
+            <p className="text-[#627382] text-center mb-4">
+              The app you are requesting is not found in our system. Please try
+              another app.
+            </p>
+            <Link
+              onClick={handleGoBack}
+              className="px-6 py-3 bg-[#001931] text-white rounded-lg hover:bg-[#002a57] transition"
+            >
+              Go Back
+            </Link>
+          </div>
+        )}
       </div>
     </div>
   );

@@ -4,6 +4,7 @@ import useApps from '../Hooks/useApps';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload, faStar, faThumbsUp } from '@fortawesome/free-solid-svg-icons';
 
+
 const AppDetails = () => {
   const { id } = useParams();
   const [apps, loading] = useApps();
@@ -12,7 +13,25 @@ const AppDetails = () => {
   if (loading) return <p>Loading......</p>;
   if (!app) return <p>App not found</p>;
 
-  const { image, title, downloads, ratingAvg, size, reviews, description, companyName } = app;
+  const { image, title, downloads, ratingAvg, size, reviews, description, companyName } = app || {};
+
+  const handleAddToInstall = () => {
+
+
+    const existingList = JSON.parse(localStorage.getItem('installation'))
+    let updatedList = [];
+    if(existingList) {
+        updatedList = [...existingList, app]
+    }
+    else
+    {
+        updatedList.push(app)
+    }
+
+    localStorage.setItem('installation', JSON.stringify(updatedList))
+ 
+
+  }
 
   return (
     <div className="max-w-[1000px] mx-auto px-6 py-10 bg-white rounded-2xl shadow-md">
@@ -52,7 +71,7 @@ const AppDetails = () => {
 
           {/* Install button */}
           <div className="mt-4">
-            <Link
+            <Link onClick={handleAddToInstall}
               to="/installation"
               className="inline-block bg-green-500 hover:bg-green-600 text-white font-semibold px-5 py-2 rounded-md shadow-sm transition duration-200"
             >
