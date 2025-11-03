@@ -30,7 +30,7 @@ const Home = () => {
             to="https://play.google.com"
             target="_blank"
           >
-            <img src="/assets/Group.png" alt="" className="w-5 mr-2" />
+            <img src="/assets/Group.png" alt="Google Play" className="w-5 mr-2" />
             Google Play
           </NavLink>
 
@@ -39,13 +39,13 @@ const Home = () => {
             to="https://www.apple.com/app-store/"
             target="_blank"
           >
-            <img src="/assets/fi_5977575.png" alt="" className="w-5 mr-2" />
+            <img src="/assets/fi_5977575.png" alt="App Store" className="w-5 mr-2" />
             App Store
           </NavLink>
         </div>
 
         <div className="flex justify-center">
-          <img src="/assets/hero.png" alt="" className="w-full max-w-[700px]" />
+          <img src="/assets/hero.png" alt="Hero Banner" className="w-full max-w-[700px]" />
         </div>
       </div>
 

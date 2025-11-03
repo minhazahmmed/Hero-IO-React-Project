@@ -1,6 +1,6 @@
 [
   {
-    "image": "/public/assets/heroLearn.png",
+    "image": "/assets/heroLearn.png",
     "title": "Hero Learn",
     "companyName": "Hero IO",
     "id": 1,
@@ -18,7 +18,7 @@
     ]
   },
   {
-    "image": "/public/assets/taskify.png",
+    "image": "/assets/taskify.png",
     "title": "Taskify Pro",
     "companyName": "NextGen Apps",
     "id": 2,
@@ -36,7 +36,7 @@
     ]
   },
   {
-    "image": "/public/assets/fitlifetracker.png",
+    "image": "/assets/fitlifetracker.png",
     "title": "FitLife Tracker",
     "companyName": "ActiveTech",
     "id": 3,
@@ -54,7 +54,7 @@
     ]
   },
   {
-    "image": "/public/assets/soundWave.jpeg",
+    "image": "/assets/soundWave.jpeg",
     "title": "SoundWave Music",
     "companyName": "TuneLabs",
     "id": 4,
@@ -72,7 +72,7 @@
     ]
   },
   {
-    "image": "/public/assets/fintack.png",
+    "image": "/assets/fintack.png",
     "title": "FinTrack Budget",
     "companyName": "SmartFinance",
     "id": 5,
@@ -90,7 +90,7 @@
     ]
   },
   {
-    "image": "/public/assets/travelio.png",
+    "image": "/assets/travelio.png",
     "title": "Travelio",
     "companyName": "SkyConnect",
     "id": 6,
@@ -108,7 +108,7 @@
     ]
   },
   {
-    "image": "/public/assets/medicarePlus.jpeg",
+    "image": "/assets/medicarePlus.jpeg",
     "title": "MediCare Plus",
     "companyName": "HealthBridge",
     "id": 7,
@@ -126,7 +126,7 @@
     ]
   },
   {
-    "image": "/public/assets/quickNote.jpeg",
+    "image": "/assets/quickNote.jpeg",
     "title": "QuickNote",
     "companyName": "NextPen",
     "id": 8,
@@ -144,7 +144,7 @@
     ]
   },
   {
-    "image": "/public/assets/photoFlex.png",
+    "image": "/assets/photoFlex.png",
     "title": "PhotoFlex Editor",
     "companyName": "PixelSoft",
     "id": 9,
@@ -162,7 +162,7 @@
     ]
   },
   {
-    "image": "/public/assets/studyHub.png",
+    "image": "/assets/studyHub.png",
     "title": "StudyHub",
     "companyName": "Hero IO",
     "id": 10,
@@ -180,7 +180,7 @@
     ]
   },
     {
-    "image": "/public/assets/foodie.jpeg",
+    "image": "/assets/foodie.jpeg",
     "title": "Foodie Express",
     "companyName": "EatSmart Ltd.",
     "id": 11,
@@ -198,7 +198,7 @@
     ]
   },
   {
-    "image": "/public/assets/weatherWise.png",
+    "image": "/assets/weatherWise.png",
     "title": "WeatherWise",
     "companyName": "ClimaTech",
     "id": 12,
@@ -216,7 +216,7 @@
     ]
   },
   {
-    "image": "/public/assets/readly.png",
+    "image": "/assets/readly.png",
     "title": "Readly Library",
     "companyName": "PaperWave",
     "id": 13,
@@ -234,7 +234,7 @@
     ]
   },
   {
-    "image": "/public/assets/chatMate.jpeg",
+    "image": "/assets/chatMate.jpeg",
     "title": "ChatMate",
     "companyName": "Connectify",
     "id": 14,
@@ -252,7 +252,7 @@
     ]
   },
   {
-    "image": "/public/assets/learnMath.png",
+    "image": "/assets/learnMath.png",
     "title": "LearnMath",
     "companyName": "Hero IO",
     "id": 15,
@@ -270,7 +270,7 @@
     ]
   },
   {
-    "image": "/public/assets/cleaning.png",
+    "image": "/assets/cleaning.png",
     "title": "CleanerX",
     "companyName": "BoostLabs",
     "id": 16,
@@ -288,7 +288,7 @@
     ]
   },
   {
-    "image": "/public/assets/langify.jpeg",
+    "image": "/assets/langify.jpeg",
     "title": "Langify",
     "companyName": "GlobalTalk",
     "id": 17,
@@ -306,7 +306,7 @@
     ]
   },
   {
-    "image": "/public/assets/smartDrive.jpeg",
+    "image": "/assets/smartDrive.jpeg",
     "title": "SmartDrive",
     "companyName": "AutoBrain",
     "id": 18,
@@ -324,7 +324,7 @@
     ]
   },
   {
-    "image": "/public/assets/greenLife.png",
+    "image": "/assets/greenLife.png",
     "title": "GreenLife",
     "companyName": "EcoWorld",
     "id": 19,
@@ -342,7 +342,7 @@
     ]
   },
   {
-    "image": "/public/assets/mindZen.png",
+    "image": "/assets/mindZen.png",
     "title": "MindZen",
     "companyName": "PeaceSoft",
     "id": 20,
